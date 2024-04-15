@@ -60,9 +60,40 @@ button {
     z-index: 2;
 }
 
+.column-trio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1.5em;
+}
+
 
 .column {
-    height: 40em;
-    width: 15em;
+    height: 50em;
+    width: 20em;
     background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.column-row {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5em;
+}
+
+.row {
+    height: 15em;
+    width: 63em;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.business-plan {
+    margin-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.business-plan>h2 {
+    padding: 2rem 0;
 }
