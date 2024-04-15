@@ -138,3 +138,25 @@ button {
 .partner-text {
     width: 20%;
 }
+
+.dropbox-title {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.dropbox-business {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img {
+    height: 250px;
+    width: 250px;
+    background-color: green;
+}
+
+
+.card-description {
+    text-align: center;
+    width: 15%;
+}
