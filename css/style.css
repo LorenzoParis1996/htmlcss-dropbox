@@ -99,11 +99,11 @@ button {
 
 
 
-/*.partner-img {
-    height: 25rem;
-    width: 25rem;
+.partner-img {
+    height: 20rem;
+    width: 5rem;
     background-color: blue;
-} */
+}
 
 .icon {
     text-align: center;
@@ -120,4 +120,21 @@ button {
 
 .row-content {
     padding: 1rem;
+}
+
+.dropbox-partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    padding-top: 10rem;
+}
+
+
+.partner-img {
+    width: 30%;
+}
+
+.partner-text {
+    width: 20%;
 }
