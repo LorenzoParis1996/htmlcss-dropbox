@@ -144,11 +144,16 @@ button {
     padding-top: 5rem;
 }
 
-.dropbox-business {
+.dropbox-business,
+.dropbox-business-two {
     display: flex;
     justify-content: center;
     padding-top: 12rem;
     column-gap: 2rem;
+}
+
+.dropbox-business-two {
+    padding-bottom: 20rem;
 }
 
 .card-size>.card-img {
@@ -170,4 +175,42 @@ button {
     width: 250px;
     text-align: left;
 
+}
+
+.about-customers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.big-container {
+    display: flex;
+    margin-left: 1px;
+}
+
+
+
+
+.sponsor-one>.small-sponsor {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+
+
+.sponsor-two>.small-sponsor {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+
+
+.big-sponsor>.big-sponsor-two {
+    height: 600px;
+    width: 700px;
+    border: 1px solid green;
 }
