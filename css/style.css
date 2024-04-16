@@ -147,6 +147,16 @@ button {
 .dropbox-business {
     display: flex;
     justify-content: center;
+    padding-top: 12rem;
+    column-gap: 2rem;
+}
+
+.card-size>.card-img {
+    position: relative;
+}
+
+.card-description {
+    position: absolute;
 }
 
 .card-img {
@@ -157,6 +167,7 @@ button {
 
 
 .card-description {
-    text-align: center;
-    width: 15%;
+    width: 250px;
+    text-align: left;
+
 }
