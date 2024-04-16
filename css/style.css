@@ -9,7 +9,7 @@ header>section {
     height: 80vh;
 }
 
-nav {
+.lista-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,8 @@ nav {
 }
 
 
-ul {
+.list-one,
+.list-two {
     display: flex;
     list-style: none;
 }
@@ -225,4 +226,35 @@ button {
 .questions>h2,
 p {
     padding: 2rem 0;
+}
+
+footer {
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.nav-foot {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+.foot-list {
+    list-style: none;
+}
+
+.foot-list>li {
+    padding: 5% 0;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    padding-right: 44rem;
+    padding-top: 3rem;
+}
+
+.language>article {
+    width: 20%;
 }
