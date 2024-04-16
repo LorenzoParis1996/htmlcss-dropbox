@@ -94,8 +94,21 @@ i.fa-arrow-down {
 }
 
 
+.business-plan {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
 
+.business-plan>h2 {
+    font-size: 200%;
+    padding-bottom: 3rem;
+}
 
+div>span {
+    padding-right: 1.5rem;
+}
 
 
 .column-trio {
@@ -109,8 +122,7 @@ i.fa-arrow-down {
 .column {
     height: 50em;
     width: 20em;
-    background-color: aquamarine;
-    border: 1px solid black;
+    border: 1px solid rgb(231, 231, 232);
 }
 
 .column-row {
@@ -122,45 +134,53 @@ i.fa-arrow-down {
 .row {
     height: 15em;
     width: 63em;
-    background-color: aquamarine;
-    border: 1px solid black;
+    border: 1px solid rgb(231, 231, 232);
 }
 
-.business-plan {
-    margin-left: 20%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.business-plan>h2 {
-    padding: 2rem 0;
-}
-
-
-
-
-.partner-img {
-    height: 20rem;
-    width: 5rem;
-    background-color: blue;
-}
 
 .icon {
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(231, 231, 232);
     padding: 0.7rem;
 }
 
-.upper-column,
-.mid-column,
-.lower-column {
-    padding-left: 1rem;
-    padding-top: 2rem;
+.bold-text {
+    font-weight: bold;
+}
+
+
+.upper-column>h2,
+.mid-column>h2,
+.lower-column>h2 {
+    padding-left: 0.9rem;
+    padding-top: 5%;
+}
+
+
+.upper-column>p,
+.mid-column>p,
+.lower-column>p {
+    padding-left: 0.9rem;
+    padding-top: 7%;
+    font-size: 86%;
+}
+
+.mid-column>div {
+    padding: 1.5rem 3em;
+}
+
+.start-trial.contact {
+    padding: 0.5em 4em;
+}
+
+.lower-column>p:first-child {
+    font-weight: bold;
 }
 
 .row-content {
     padding: 1rem;
 }
+
 
 .dropbox-partner {
     display: flex;
@@ -169,6 +189,14 @@ i.fa-arrow-down {
     column-gap: 1em;
     padding-top: 10rem;
 }
+
+
+.partner-img {
+    height: 20rem;
+    width: 5rem;
+    background-color: blue;
+}
+
 
 
 .partner-img {
