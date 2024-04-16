@@ -192,16 +192,7 @@ button {
 
 
 
-
-.sponsor-one>.small-sponsor {
-    height: 300px;
-    width: 300px;
-    border: 1px solid black;
-}
-
-
-
-.sponsor-two>.small-sponsor {
+.sponsor>.small-sponsor {
     height: 300px;
     width: 300px;
     border: 1px solid black;
@@ -213,4 +204,25 @@ button {
     height: 600px;
     width: 700px;
     border: 1px solid green;
+}
+
+
+.below-sponsor {
+    height: 40vh;
+    background-color: rgb(180, 208, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 120%;
+}
+
+.questions>h2,
+p {
+    padding: 2rem 0;
 }
