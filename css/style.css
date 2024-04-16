@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-header>section {
-    background-color: rgb(180, 208, 231);
-    height: 80vh;
-}
 
 .lista-header {
     display: flex;
@@ -28,9 +24,28 @@ li {
 }
 
 header>section {
-    display: flex;
-    justify-content: center;
+    background-color: rgb(180, 208, 231);
+    height: 70vh;
+    /*display: flex;
+    justify-content: center;*/
     position: relative;
+}
+
+.header-title {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 6rem;
+}
+
+.header-title>h1 {
+    font-size: 5rem;
+}
+
+.header-text {
+    width: 35%;
+    font-size: 120%;
 }
 
 
@@ -40,22 +55,21 @@ header>section {
     height: 400px;
     background-color: aqua;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 45%;
+    left: 43%;
     z-index: 1;
 }
 
 
-.header-info {
+/*.header-info {
     display: flex;
     flex-wrap: wrap;
     width: 20%;
-}
+}*/
 
-.header-info>h1,
+.header-title>h1,
 p,
 button {
-    align-self: flex-start;
     z-index: 2;
 }
 
@@ -223,8 +237,11 @@ button {
     font-size: 120%;
 }
 
-.questions>h2,
-p {
+.questions>h2 {
+    padding: 2rem 0;
+}
+
+.questions>p {
     padding: 2rem 0;
 }
 
