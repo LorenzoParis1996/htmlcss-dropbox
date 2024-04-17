@@ -248,40 +248,60 @@ div>span {
 
 .dropbox-title {
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 8rem;
+    font-size: 2.5rem;
 }
 
-.dropbox-business,
+.dropbox-business {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    column-gap: 2rem;
+}
+
+
 .dropbox-business-two {
     display: flex;
     justify-content: center;
     padding-top: 15rem;
     column-gap: 2rem;
+    padding-bottom: 15rem;
 }
 
-.dropbox-business-two {
-    padding-bottom: 20rem;
-}
 
-.card-size>.card-img {
+.card-size {
     position: relative;
+    height: 250px;
+    width: 290px;
+}
+
+
+.card-img {
+    height: 250px;
+    width: 290px;
+    object-fit: fill;
 }
 
 .card-description {
     position: absolute;
 }
 
-.card-img {
-    height: 250px;
-    width: 250px;
-    background-color: green;
-}
 
 
 .card-description {
-    width: 250px;
+    width: 290px;
     text-align: left;
 
+}
+
+.card-description>h3 {
+    font-size: 150%;
+
+}
+
+.card-description>p {
+    padding-top: 1.5em;
+    font-size: 95%;
 }
 
 .about-customers {
