@@ -304,12 +304,20 @@ div>span {
     font-size: 95%;
 }
 
+
 .about-customers {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 20%;
+    margin-left: 25%;
+    width: 30%;
+    font-size: 150%;
+    padding-bottom: 4rem;
+}
+
+.about-customers>h2 {
+    padding: 7rem 0 4rem;
+}
+
+.about-customers>a {
+    font-size: 60%;
 }
 
 .big-container {
@@ -318,19 +326,80 @@ div>span {
 }
 
 
-
 .sponsor>.small-sponsor {
     height: 300px;
     width: 300px;
-    border: 1px solid black;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-sponsor.light-green {
+    background-color: rgb(162, 211, 155);
+    border: 15px solid rgb(209, 233, 205);
+}
+
+.small-sponsor.light-blue {
+    background-color: rgb(0, 147, 206);
+}
+
+.small-sponsor.bordeaux {
+    background-color: rgb(97, 8, 43);
+}
+
+.small-sponsor.red {
+    background-color: rgb(255, 28, 28);
+}
+
+.small-sponsor.light-red {
+    background-color: rgb(213, 0, 31);
+}
+
+.small-sponsor.blue {
+    background-color: rgb(13, 36, 129);
+}
+
+.small-sponsor.lighter-blue {
+    background-color: rgb(180, 208, 231);
+}
+
+.small-sponsor.yellow {
+    background-color: rgb(255, 216, 48);
+}
+
+.img-logo {
+    filter: invert(100%);
 }
 
 
+.img-container {
+    height: 100px;
+    width: 150px;
+}
 
-.big-sponsor>.big-sponsor-two {
+
+.img-container>.img-logo {
+    height: 100px;
+    width: 150px;
+    object-fit: fill;
+}
+
+.img-container#container-florida {
+    height: 30px;
+}
+
+.img-logo.florida {
+    height: 30px;
+}
+
+
+.big-sponsor-two {
     height: 600px;
     width: 700px;
-    border: 1px solid green;
+    background-color: rgb(245, 245, 245);
 }
 
 
