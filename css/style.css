@@ -396,11 +396,34 @@ div>span {
 }
 
 
-.big-sponsor-two {
+.big-sponsor {
     height: 600px;
     width: 700px;
     background-color: rgb(245, 245, 245);
+    padding: 1rem 3rem;
 }
+
+.big-sponsor-container {
+    height: 140px;
+    width: 250px;
+}
+
+.big-sponsor-container>img {
+    height: 140px;
+    width: 250px;
+    object-fit: fill;
+}
+
+.big-sponsor-container~p {
+    padding-top: 3rem;
+}
+
+.big-sponsor>hr {
+    width: 15%;
+    margin-top: 1rem;
+}
+
+
 
 
 .below-sponsor {
