@@ -432,21 +432,45 @@ div>span {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 5rem;
+}
+
+.below-sponsor>h2 {
+    color: rgb(98, 10, 44);
+    font-size: 250%;
+    width: 30%;
+}
+
+.start-trial.light-grey-btn {
+    color: black;
+    background-color: white;
+    padding: 0.5em 3em;
 }
 
 .faq {
     display: flex;
     justify-content: center;
-    padding: 3rem;
+}
+
+.questions {
+    padding: 8rem;
     font-size: 120%;
+    width: 65%;
 }
 
 .questions>h2 {
-    padding: 2rem 0;
+    padding: 3rem 0;
+    font-size: 220%;
+
 }
 
 .questions>p {
+    font-size: 80%;
     padding: 2rem 0;
+}
+
+i.fa-chevron-down {
+    padding-left: 17rem;
 }
 
 footer {
